@@ -10,6 +10,7 @@ const BUILD_PATH = path.resolve(__dirname, 'public', 'build');
 
 const config = {
     entry: path.join(SRC_PATH, 'index.js'),
+    target: 'web',
     output: {
         path: BUILD_PATH,
         filename: '[name].[contenthash].js',
@@ -76,7 +77,7 @@ const config = {
     },
     devServer: {
         contentBase: BUILD_PATH,
-        port: process.env.WEBPACK_PORT || 8081,
+        port: process.env.WEBPACK_PORT || 300,
         host: '0.0.0.0',
         writeToDisk: true,
         open: false,
