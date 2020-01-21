@@ -77,7 +77,7 @@ const config = {
     },
     devServer: {
         contentBase: BUILD_PATH,
-        port: process.env.WEBPACK_PORT || 300,
+        port: process.env.WEBPACK_PORT || 8081,
         host: '0.0.0.0',
         writeToDisk: true,
         open: false,

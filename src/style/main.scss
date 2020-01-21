@@ -65,7 +65,27 @@
               padding: 10px;
             }
 
-            input[name~="date"] {
+            select {
+              border-radius: 10px;
+              padding: 10px;
+              color: #333;
+              box-shadow: inset 0 0 10px 0 #999;
+            }
+
+            .comments-wrapper {
+              width: 100%;
+            }
+
+            textarea {
+              width: 100%;
+              height: auto;
+              min-height: 150px;
+              box-shadow: inset 0 0 10px 0 #999;
+              border: none;
+              border-radius: 10px;
+            }
+
+            input[type~="date"] {
               display: inline-block;
               background: none;
               box-shadow: none;
@@ -117,26 +137,6 @@
                 background: #fff;
                 box-shadow: inset 0 0 10px 0 #999;
               }
-            }
-
-            select {
-              border-radius: 10px;
-              padding: 10px;
-              color: #333;
-              box-shadow: inset 0 0 10px 0 #999;
-            }
-
-            .comments-wrapper {
-              width: 100%;
-            }
-
-            textarea {
-              width: 100%;
-              height: auto;
-              min-height: 150px;
-              box-shadow: inset 0 0 10px 0 #999;
-              border: none;
-              border-radius: 10px;
             }
           }
 
